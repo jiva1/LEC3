@@ -1,0 +1,90 @@
+*
+{
+    color: white;
+    background-color: #1d3311;
+}
+/* header h1{
+    text-align: center;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration:line-through;
+   text-decoration-color: #b6d7a8;
+   text-decoration-thickness: 1px;
+    
+} */
+.hero {
+    text-align: center;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration:line-through;
+   text-decoration-color: #b6d7a8;
+   text-decoration-thickness: 1px;
+}
+.hero:hover {
+    font-size: 100px;
+    transform: scale(2);
+    transition: 3s;
+    color: aliceblue;
+}
+p{
+    text-align: left;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+}
+ul,li{
+   text-align: left;
+   font-size: 23px;
+   color: #76c454;
+   
+}
+#para
+{
+    text-align: center;
+    color: #a38d61;
+    font-family:monospace;
+    word-spacing: 1px;
+}
+
+
+#tableimg td img{
+    width: 50%;
+
+
+}
+#tableimg td {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: -30px;
+}
+
+#col2 {
+    padding-left: 150px;
+}
+
+.coco {
+    padding-left: 200px;
+    width: 50%;
+}
+
+
+.btn
+{
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0 200px 0 200px;
+    justify-content: center;
+}
+button
+{
+    background-color: #000000;
+    padding: 10px 20px 10px 20px;
+    color: #76c454;
+}
+button:hover
+{
+    background-color: white;
+    color: #000000;
+}
